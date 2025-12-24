@@ -43,7 +43,7 @@ async def randomroles(ctx):
         role = random.choice(roles)
         try:
             await member.add_roles(role)
-            await asyncio.sleep(1)
+            await asyncio.sleep(3)
         except:
             pass
 
